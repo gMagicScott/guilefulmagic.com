@@ -1,9 +1,17 @@
-<!DOCTYPE html>
+<?php
+/**
+ * Header for our theme
+ *
+ *  Displays all of the <head> section and everything up through the logo
+ */
+
+if ( !defined( 'ABSPATH' ) ) exit;
+
+?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <title><?php wp_title(''); ?></title>
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" /> 
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ) ?>/black-tie/jquery-ui-1.8.20.custom.css" type="text/css" />
