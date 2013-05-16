@@ -1,0 +1,510 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html><head>
+<style type="text/css"> <!--  .Toplink {COLOR: #FFFFFF; font-family: arial; font-size: 10pt; font-weight: bold; TEXT-DECORATION: none;} a:link.Toplink{color : #FFFFFF; font-weight: bold; TEXT-DECORATION: none;} a:visited.Toplink{color : #FFFFFF; font-weight: bold; TEXT-DECORATION: none;} a:active.Toplink{color : #000000; font-weight: bold; TEXT-DECORATION: none;} a:hover.Toplink{color : #000000; font-weight: bold; TEXT-DECORATION: none;}  --> </style>  
+<script type="text/javascript">
+
+String.prototype.toTitleCase = function() {
+		return this.replace(/([\w&`'‘’"“.@:\/\{\(\[<>_]+-? *)/g, function(match, p1, index, title) {
+			if (index > 0 && title.charAt(index - 2) !== ":" &&
+				match.search(/^(a(nd?|s|t)?|b(ut|y)|en|for|i[fn]|o[fnr]|t(he|o)|vs?\.?|via)[ \-]/i) > -1)
+				return match.toLowerCase();
+			if (title.substring(index - 1, index + 1).search(/['"_{(\[]/) > -1)
+				return match.charAt(0) + match.charAt(1).toUpperCase() + match.substr(2);
+			if (match.substr(1).search(/[A-Z]+|&|[\w]+[._][\w]+/) > -1 || 
+				title.substring(index - 1, index + 1).search(/[\])}]/) > -1)
+				return match;
+			return match.charAt(0).toUpperCase() + match.substr(1);
+		});
+	};
+	
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+
+function ToProperCase(s)
+{
+	
+	return s.toTitleCase();
+
+}
+	
+function CheckPlural(s)
+{
+  s=s.toLowerCase();
+  if(s.indexOf(' and ') > 0 || s.indexOf('&') > 0 || s.indexOf(',')>0)
+	{ 	
+		return 1;
+	}
+	else 
+	{
+		return 0;
+	}
+}
+
+function ValidateName(f)
+{
+  s = f.field9.value;
+  r = /[0-9]|[\(\)]|-/;
+  i = s.search(r);
+  if(i > 0)
+  {
+      selectedItem = f.AR[f.AR.selectedIndex];
+      selectedItem.value = "467394";
+  }
+
+  return true;
+
+}
+
+</script><link rel="icon" href="http://www.magickidsparty.com/MKPfavicon.gif" type="image/x-icon"> <link rel="shortcut icon" href="http://www.magickidsparty.com/MKPfavicon.gif" type="image/x-icon">
+
+<title>Minnesota Child Entertainer -&nbsp; birthday parties for kids</title><script type="text/javascript">
+function boyorgirl(){
+  var bg = document.getElementById('AR').selectedIndex;
+  if(bg==0){
+    document.getElementById('field8').value="boy";
+  }
+  if(bg==1){
+    document.getElementById('field8').value="girl";
+  }
+  if(bg==2){
+    document.getElementById('field8').value="multi";
+  }
+ }
+
+</script></head> <body bgcolor="#808080" text="000000"leftmargin=0 topmargin=0 marginwidth=0 marginheight=0> 
+<script language = "javascript">
+<!--
+if(navigator.userAgent.indexOf('Netscape6') != -1){ns6 = 1}else{ns6 = 0}
+var ie = document.all ? 1 : 0
+var ns = document.layers ? 1 : 0
+//-->
+</script>
+<div align="center"> <table border="1" width="600" cellspacing="0" cellpadding="2" bordercolor="#000000" style="border-collapse: collapse"> <tr><td width="100%" bgcolor="FFFFFF"> <!--Begin Topbar/--> <!--End Topbar/--> <!--Begin Header/--><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr> <td width="100%" background="null748.gif"> &nbsp;</td> </tr> <tr> <td width="100%" bgcolor="#FFFFFF"><img border="0" src="11dot.gif" width="1" height="1"></td> </tr> <tr> <td width="100%" bgcolor="#000000"><img border="0" src="11dot.gif" width="1" height="1"></td> </tr> </table> <!--End Header/--><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="5%" valign="top" bgcolor="FFFFFF"><!--Begin Navbar/--><!--End Navbar/--></td><td width="95%" bgcolor="FFFFFF"><table border="0" width="100%" cellspacing="0" cellpadding="0" height="300"><tr><td width="100%" valign="top"> <table border=0 width=100% style="border-collapse: collapse" bordercolor="#111111" cellpadding="0" cellspacing="0"><tr><td><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">   <P align=center>
+				&nbsp;<table border="0" width="600" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#111111"><tr> <td width="1%" valign="top" bgcolor="FFFFFF">&nbsp;</td> <td width="99%" bgcolor="FFFFFF"><center> <o:p> <p align="center"> <b><font face="Verdana" size="6">&quot;Make Your Child's Birthday One of the Happiest &amp; Most  Memorable Days Of Their Life&quot;</font></b></p>
+		<p align="center"> 
+		<img border="0" src="http://www.magickidsparty.com/guaranteed.gif" width="167" height="45"></p> <p align="center"> 
+		<img border="0" src="http://www.magickidsparty.com/images/IMAGE028a.jpg" alt="children magician Minnesota" width="300" height="225"></p> <div align="center"> <center> <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="392" bgcolor="#FFFF00"> <tr> <td width="201">  <font size="2" face="Verdana">Click here to listen to a message from another satisfied mom, Melissa Albay</font></td> <td width="191"> <o:p> <b><font face="Verdana,Arial" size="2"> 
+			<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20"></font></b><font face="arial">  <iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=59644&f=WQJHTB&ps=13&c=FFFFFF&pm=2&h=25"></iframe> </font> </td> </tr> </table> </center> </div> <o:p> <hr> <p align="center"> <font face="arial"></p> <p align="left"> <o:p> <p align="left"></p> <p class="MsoNormal" align="left"><font size="3">
+<script language="JavaScript">
+<!-- Begin
+var AddDays = 0;  //  How many days ahead of the current date
+TDate = new Date();
+TDay = new Array('Sunday', 'Monday', 'Tuesday', 
+'Wednesday', 'Thursday', 'Friday', 'Saturday');
+TMonth = new Array('January', 'February', 'March', 
+'April', 'May','June', 'July', 'August', 'September', 
+'October', 'November', 'December');
+MonthDays = new Array('31', '28', '31', '30', 
+'31', '30', '31', '31', '30', '31', '30', '31');
+function isLeapYear (Year) {
+if (((Year % 4)==0) && ((Year % 100)!=0) || ((Year % 400)==0)) {
+return true;
+} 
+else {
+return false;
+   }
+}
+CurYear = TDate.getYear();
+if (CurYear < 2000)       // Y2K Fix, Isaac Powell
+CurYear = CurYear + 1900; // http://onyx.idbsu.edu/~ipowell
+CurMonth = TDate.getMonth();
+CurDayOw = TDate.getDay();
+CurDay = TDate.getDate();
+month = TMonth[CurMonth];
+if (month == 'February')  {
+if (((CurYear % 4)==0) && ((CurYear % 100)!=0) || ((CurYear %
+400)==0)) {
+MonthDays[1] = 29;
+}
+else {
+MonthDays[1] = 28;
+   }
+}
+days = MonthDays[CurMonth];
+CurDay += AddDays;
+if (CurDay > days) {
+if (CurMonth == 11) {
+CurMonth = 0;
+month = TMonth[CurMonth];
+CurYear = CurYear + 1
+}
+else {
+month = TMonth[CurMonth+1];
+}
+CurDay = CurDay - days;
+}
+CurDayOw += AddDays;
+function adjustDay (cday) {
+if (cday > 6) {
+cday -= 6;
+CurDayOw = TDay[cday-1];
+adjustDay(cday-1);
+}
+else {
+CurDayOw = TDay[cday];
+return true;
+
+   }
+}
+adjustDay(CurDayOw);
+TheDate  = CurDayOw + ', ';
+TheDate += month + ' ';
+TheDate += CurDay + ', ';
+if (CurYear<100) CurYear="19" + CurYear;
+TheDate += CurYear;
+document.write(" ");
+document.write(TheDate);
+document.write("");
+// End -->
+      </script>
+</font></b><br> </p> </font> <font face="Verdana"> <p align="left">Dear Parent,</p> <p align="left">Imagine a birthday party so filled with laughter and joy that your child remembers it <i>forever. </i>Impossible?</p> <p align="left">I <u><font color="#FF0000">guarantee</font></u> it! Your child is the star in an entertainment package that features <b>comedy, magic, puppetry, storytelling, and free gifts </b>for <i>all</i> the kids.&nbsp;Check 
+	out the video below and you'll hear all the laughter and fun.</p>
+<div align="center">
+  <center>
+<table id="table11" width="500" height="600" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111">
+	<tr>
+		<td colspan="3">
+			<img src="http://www.magickidsparty.com/skin7_01.gif" alt="" width="500" height="96"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="http://www.magickidsparty.com/skin7_02.gif" alt="" width="33" height="357"></td>
+		<td bgcolor="#FFFFFF" width="431" height="357" valign="middle">
+			<p align="center">
+			<font face="Verdana"> 
+			<embed style="width:426px; height:354px;" id="VideoPlayback0" align="middle" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=2717956862576130502&hl=en" quality="best" bgcolor="#ffffff" scale="noScale" salign="TL"  FlashVars="playerMode=embedded"></font></td>
+		<td>
+			<img src="http://www.magickidsparty.com/skin7_04.gif" alt="" width="36" height="357"></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="http://www.magickidsparty.com/skin7_05.gif" alt="" width="500" height="147"></td>
+	</tr>
+</table>
+  </center>
+</div>
+<!-- End ImageReady Slices -->
+		<p align="left">Discover how easy it is to throw a party that will create wonderful memories that'll last a lifetime. Don't  risk disappointing you or your child. 
+		<b> <u>  
+		<a style="color: #FFFFFF; font-weight: bold" href="#Info_request"> 
+		<font color="#0000FF">Click here and fill out the information below</font></a></u> 
+	and I'll email you complete, no  obligation details along with additional 
+	sample video clips.</b></font></p><p align="left"> <font face="Verdana">&nbsp; Sincerely,</font><p align="left"> <font face="Verdana"> 
+		<img border="0" src="http://www.mcssl.com/content/194238/mysig.png" alt="Scott Lesovic"><p align="left"> ~The funniest children's entertainer in the 
+		Pennsylvania area</font><font face="arial">~</font><p align="center"> 
+		<img height="15" src="http://www.magickidsparty.com/http://www.magickidsparty.com/photogallery/3line.gif" width="512"><font face="Verdana" size="2"><br>
+	<br>
+	<i><b>&quot;David, it really has been a pleasure working with you so far. I 
+	appreciate your communication and your professionalism! I can only imagine 
+	how the show will be… thank you! You can be certain I will have high 
+	recommendations for you.&quot;</b></i></font><p align="center"> 
+		<img border="0" src="http://www.magickidsparty.com/watch_video_now_red.jpg" width="235" height="141"><br>
+&nbsp;<center>
+<div align="center">
+  <center>
+<table id="table12" width="300" height="260" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111">
+	<tr>
+		<td colspan="3">
+			<img src="http://www.magickidsparty.com/skin19_01.gif" alt="" width="300" height="27"></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="http://www.magickidsparty.com/skin19_02.gif" alt="" width="22" height="205"></td>
+		<td bgcolor="#FFFFFF" width="255" height="205" valign="middle">
+			<p align="center">
+            <embed allowScriptAccess="never" allowNetworking="internal" enableJSURL="false" enableHREF="false" saveEmbedTags="true" src="http://video.google.com/googleplayer.swf?docId=8996034511064188841&amp;hl=en" style="width:255px; height:204px;" id="VideoPlayback" type="application/x-shockwave-flash" flashvars=""></td>
+		<td>
+			<img src="http://www.magickidsparty.com/skin19_04.gif" alt="" width="23" height="205"></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="http://www.magickidsparty.com/skin19_05.gif" alt="" width="300" height="28"></td>
+	</tr>
+</table>
+  </center>
+</div>
+<!-- End ImageReady Slices -->
+</center> </embed><p align="center"> <b><font face="Verdana" size="2">Wendy Frantz - Prior Lake, MN</font></b><p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"><div align="center"> <table border="0" style="border-collapse: collapse" width="473"> <tr> <td> <p align="center"> <b><font size="2" face="Verdana">&quot;All of the kids absolutely LOVED the  show. There are still talking about it.&quot;</font></b><p align="center"> <font face="Verdana,Arial" size="4"> Click To Listen</font><b><font face="Verdana,Arial" size="2"> 
+			<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20"> <!--webbot bot="HTMLMarkup" startspan --><iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=56453&f=ZQBAKT&ps=13&c=FFFFFF&pm=2&h=25"></iframe><!--webbot bot="HTMLMarkup" endspan i-checksum="35610" --></font></b><p align="center"> <font face="Verdana" size="2"><b>Karen D. - Plymouth, Minnesota</b></font></td> </tr> </table> 
+		<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+		<div align="center">
+			<table border="0" width="80%" id="table9">
+				<tr>
+					<td>
+					<p align="center">
+					<img border="0" src="http://www.magickidsparty.com/mkp1_testimonial.gif" width="350" height="244"></td>
+				</tr>
+			</table>
+		</div>
+		<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+		<div align="center">
+			<table border="0" width="80%" id="table6">
+				<tr>
+					<td>
+					<p align="left"><b><i><font face="Verdana" size="2">&quot;T</font></i></b><i><b><font face="Verdana" size="2">hank 
+					you for entertaining the kids &amp; the adults at our party 
+					yesterday. You are awesome, and I would highly recommend you 
+					to everyone I know! Andrew can't stop talking about &quot;the 
+					magician, David Farr&quot; and he even said that he wanted you to 
+					&quot;sleep over&quot; because you're &quot;so cool!&quot; Thank you again for<br>
+					making this birthday party so memorable! I think you'll make 
+					a wonderful dad someday (if you're not one yet- I'm just 
+					amazed on how you can keep the attention of all those 
+					kids!!!:)&quot;</font></b></i></p>
+					<p align="center"> <font face="Verdana,Arial" size="4"> Click To Listen </font> <b><font face="Verdana,Arial" size="2"> 
+					<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20"> <iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=131554&f=PPIKSJ&ps=13&c=FFFFFF&pm=2&h=25"></iframe></font></b></p>
+					<p align="center"><b><font face="Verdana" size="2">Gladys 
+					Aakre - Maple Grove, MN</font></b></td>
+				</tr>
+			</table>
+		</div>
+		<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+		<div align="center">
+			<table border="0" width="80%" id="table8">
+				<tr>
+					<td>
+					<div>
+						<b><i><font face="Verdana" size="2">You gave a stunning 
+						performance!!! Thank you so much!!! You made&nbsp;Adam's 
+						birthday one that he and his friends will be talking 
+						about for a long time. I'm still trying to figure out 
+						the watch trick. Great Job, very commanding presence and 
+						what a way you have with the little ones.</font></i></b></div>
+					<div>
+						<p align="center"><b><font face="Verdana" size="2">
+						Janice Oldfather - Maple Grove, MN</font></b></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p> <div align="center"> <table border="0" style="border-collapse: collapse" width="473"> <tr> <td> <p align="center"><b><font face="Verdana" size="2">&quot;We're  still talking about it... seeing my son's face when he  change 1 star into two stars is just priceless.&quot;</font></b></p> <p align="center"> <font face="Verdana,Arial" size="4"> Click To Listen </font> <b><font face="Verdana,Arial" size="2"> 
+				<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20"> </font></b><!--webbot bot="HTMLMarkup" startspan --><iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=33187&f=QNRTFX&ps=13&c=FFFFFF&pm=2&h=25"></iframe><!--webbot bot="HTMLMarkup" endspan i-checksum="38897" --></p> <p align="center"><b><font face="Verdana" size="2">Karen  Smith - Bloomington, Minnesota</font></b></td> </tr> </table> 
+			<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+				<table border="1" width="54%" bordercolorlight="#FF00FF" bgcolor="#FFFF00" id="table1">
+		<tr>
+			<td>
+			<p align="center"> <font face="Verdana"> 
+			<a name="Info_request"> 
+			<img border="0" src="http://www.davidfarr.com/mkp/4058327_1237426049_master.png" width="343" height="51"></a></font><font face="Trebuchet MS"><br>
+			Enter your information and hit &quot;Request info!&quot; I'll send complete 
+			details of what I offer.</font></p>
+			<form name="form1" method="post" action="http://www.mcssl.com/app/contactsave.asp">
+							</p>
+<input name="merchantid" type="hidden" value="194238">
+<input name="ARThankyouURL" type="hidden" value="http://www.guilefulmagic.com/info.php">
+<input name="copyarresponse" type="hidden" value="0">
+<input name="custom" type="hidden" value="1">
+<input name="field8" type="hidden" value="">
+<input name="allowmulti" type="hidden" id="allowmulti" value="0">
+<input name="visiblefields" type="hidden" value="Name,Email1">
+<input name="requiredfields" type="hidden" value="Name,Email1">
+<table width="335" height="214" cellspacing="0">
+    <tr>
+      <td width="90"><font face="Trebuchet MS">Your Name</font></td>
+      <td width="235">
+		<input name="Name" size="35" style="font-family: Trebuchet MS;" type="text" onChange="this.value=ToProperCase(this.value)">
+    </tr>
+    <tr>
+      <td width="90"><font face="Trebuchet MS">Email</font></td>
+      <td width="235">
+		<input name="Email1" type="text" size="30" style="font-family: Trebuchet MS"></td>
+    </tr>
+    <tr>
+      <td width="90"><font face="Trebuchet MS">Child's <u>first</u> name(s)</font></td>
+      <td width="235"><input type="hidden" name="fieldname9" value="Payment made">
+        <input type="hidden" name="required9" value="1">
+        <input name="field9" size="30" style="font-family: Trebuchet MS;"
+type="text" onChange="this.value=ToProperCase(this.value)"
+onBlur="if(CheckPlural(this.value)==1)this.form.AR.selectedIndex = 2">
+</td>
+    </tr> <td width="90">
+	<p align="left"><font face="Trebuchet MS">Boy/Girl</font></td>
+      <td width="235">
+		<p align="left"><font size="4">
+		<select size="1" name="AR" id="AR" style="font-family: Trebuchet MS">
+		<option value="623093">B-Day Boy</option>
+		<option value="623094">B-Day Girl</option>
+		<option value="623098">Multiple Bday Children</option>
+		
+		</select></font></td>
+	<tr align="center">
+		<td colspan="2">
+			<input type="image" name="Send" alt="Send" value-"Send" src="https://www.mcssl.com/content/5734/buttons/request_info.png" onclick="boyorgirl()">
+			<br>
+			<font face="Trebuchet MS" size="2">
+			<a target="_blank" href="http://www.guilefulmagic.com/privacy_policy.html">privacy policy</a></font></td>
+	</tr>
+  </table>
+</form>
+</td>
+		</tr>
+	</table>
+</div>
+</p></p>
+				<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+		<table border="0" width="80%" id="table4">
+			<tr>
+				<td><i><b><font face="Verdana" size="2">&quot;I just wanted to thank 
+				you for the wonderful entertainment Saturday for Ryan's party. 
+				Everything went so well and your show was terrific. Ryan is 
+				talking about it non stop and I know the guests of the party 
+				(both kids and parents) were equally thrilled with your show. 
+				Thanks again!!!!&quot;</font></b></i><p align="center"><b>
+				<font face="Verdana" size="2"><em style="font-style: normal">
+				Vikki L. Lindstrom - Woodbury, MN</em></font></b></td>
+			</tr>
+		</table>
+		</div> </div> <p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"><div align="center"> <table border="0" style="border-collapse: collapse" width="473"> <tr> <td> <p align="center"><b><font face="Verdana" size="2">&quot;I would  highly recommend you!&quot;</font></b></p> <p align="center"> <font face="Verdana,Arial" size="4"> Click To Listen </font> <b><font face="Verdana,Arial" size="2"> 
+			<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20"> </font></b><!--webbot bot="HTMLMarkup" startspan --><iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=64068&f=JXJPGK&ps=13&c=FFFFFF&pm=2&h=25"></iframe><!--webbot bot="HTMLMarkup" endspan i-checksum="37817" --></p> <p align="center"><b><font face="Verdana" size="2">Tina Johnson  - Buffalo, Minnesota</font></b></td> </tr> </table> 
+		<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+		<div align="center"> 
+			<table border="0" style="border-collapse: collapse" width="473" id="table5"> <tr> <td><font face="Verdana"> <p class="MsoBodyText3" align="center"><b> <font size="2" color="#000000">&quot;Thank you so much for making Sarah's birthday party a fabulous  event! It is a party she will remember forever! One of the things  we as parents appreciated is that we had as much fun as Sarah, if  not more. Our teenage son and preteen daughter were also  captivated by your magic and humor--what a great time for friends  and family!!!!&quot; </font></b></p> <p class="MsoBodyText3" align="center"><b> <font size="2" color="#000000">Linnea Grey - Eden Prairie, Minnesota</font></b></p> </font></td> </tr> </table> 
+			<p class="MsoBodyText3" align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+			<p class="MsoBodyText3" align="center">&nbsp;<img src="http://photos.davidfarr.com/images/A_2/6/5/3/23562/margaret_testimonial_be7aa.png" /></div> </div> <p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"><center> <div align="center"> <div align="center"> <table border="0" style="border-collapse: collapse" width="473"> <tr> <td> <p align="center"><b><font face="Verdana" size="2">&quot;From  the moment he started, David had the <br> kids completely captivated...&quot;</font></b></p> <p align="center"> <font face="Verdana,Arial" size="4"> Click To Listen </font> <b><font face="Verdana,Arial" size="2"> 
+			<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20">  <!--webbot bot="HTMLMarkup" startspan --><iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=77709&f=VNDJOA&ps=13&c=FFFFFF&pm=2&h=25"></iframe><!--webbot bot="HTMLMarkup" endspan i-checksum="36318" --></p> <p align="center"><b><font face="Verdana" size="2">Bob  Christiansen - Bloomington, MN</font></b></font></b></td> </tr> </table> 
+	<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+	<table border="0" style="border-collapse: collapse" width="473" id="table3"> <tr> <td><p align="left"> <font color="#000000" size="2" face="Verdana"><i><b>&quot;I just wanted to let you know the kids are still talking about Lauren's party and we watched to tape of it the other day and Lynn and I enjoyed it just as much the second time around.&nbsp;&nbsp; <u>Thanks again for a great show and for making Lauren's birthday so easy for me and so memorable for her</u>.&quot;&nbsp;</b></i>&nbsp;&nbsp;&nbsp; <br> &nbsp;</font><center> <font face="arial, helvetica, sans-serif"> <font color="#000000" size="2" face="Verdana"><b>Maureen Behrns- Plymouth, </b></font> <font face="Verdana"><b><font size="2" color="#000000"> Minnesota</font></b></font></font></td> </tr> </table> <p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></div> <div align="center"> <table border="0" style="border-collapse: collapse" width="473"> <tr> <td> <p align="center"><font face="Verdana" size="2"><b>&quot;You  really made my son's day!&quot;</b></font></p> <p align="center"><font face="Verdana,Arial" size="4">Click  To Listen </font><b><font face="Verdana,Arial" size="2"> <img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20"> <!--webbot bot="HTMLMarkup" startspan --><iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=78318&f=EVYRWG&ps=13&c=FFFFFF&pm=2&h=25"></iframe><!--webbot bot="HTMLMarkup" endspan i-checksum="38593" --></font></b></p> <p align="center"><b><font size="2" face="Verdana">Sarah  Arndt - Plymouth, MN</font></b></td> </tr> </table> </div> </div> <p> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"><font face="arial">&nbsp;</font><p>
+		<b><font size="5"><a href="#Info_request">Click here to request info</div></a></font></b></p></p>
+		<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+		<p> &nbsp;<div align="center"> <table border="0" style="border-collapse: collapse" width="473"> <tr> <td>
+		<p align="center">
+		<img border="0" src="http://www.magickidsparty.com/mkp_testimonial.gif" width="285" height="425"></td> </tr> </table> 
+	<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+	<font face="Verdana"> <div align="center"> 
+		<table border="0" style="border-collapse: collapse" width="473" id="table7"> <tr> <td><font face="Verdana"> <p class="MsoBodyText3"><b><font size="2">&quot;...All the kids had a blast.  Aamy is so happy and is still talking about your show...&quot;</font></b></p> <p class="MsoBodyText3" align="center"><font size="4">Click to Listen</font><font size="2"><b>&nbsp; </b></font> <b><font face="Verdana,Arial" size="2"> 
+			<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20">&nbsp; </font></b> <font face="arial"><!--webbot bot="HTMLMarkup" startspan --><iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=57328&f=QNOTZI&ps=13&c=FFFFFF&pm=2&h=25"></iframe><!--webbot bot="HTMLMarkup" endspan i-checksum="38216" --></font></p> <p class="MsoBodyText3" align="center"><b><font size="2">Kuldip Kumar - Shoreview, MN</font></b></p> </font></td> </tr> </table> </div> </font> </div> <p> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"><div align="center"> <table border="0" style="border-collapse: collapse" width="473"> <tr> <td><i><b><font face="Verdana" size="2">&quot;You did a fantastic 
+					job yesterday with all of the kids. It was amazing how you 
+					were able to keep 14 6-year-olds engaged for the entire 
+					time. It was really fun to go back and watch the video--we 
+					still can't figure out how you pulled off some of the magic 
+					tricks. Conner definitely enjoyed being the center of 
+					attention! You made his birthday &quot;magical&quot; and 
+					unforgettable!&quot;</font></b></i><p align="center"><b>
+					<font face="Verdana" size="2">Katie Samson - Champlin, MN</font></b></td> </tr> </table> 
+	<p align="center"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p>
+	<div align="center">
+		<table border="0" width="80%" id="table10">
+			<tr>
+				<td>
+				<p align="center"><i><b><font face="Verdana" size="2">&quot;We had a 
+				wonderful time! He's already asking if you can come next year! 
+				It was worth every penny!&quot;</font></b></i></p>
+				<p align="center"><font size="4" face="Verdana">Click to Listen </font> <b><font face="Verdana,Arial" size="2"> 
+				<img src="http://www.magickidsparty.com/images/arrow.gif" border="0" width="60" height="20"> </font></b>
+				<!--webbot bot="HTMLMarkup" startspan --><iframe scroll=no width=75 height=25 frameborder=0 scrolling=no src="http://PlayAudioMessage.com/play.asp?m=148937&f=MJMGDR&ps=13&c=FFFFFF&pm=2&h=25"></iframe><!--webbot bot="HTMLMarkup" endspan i-checksum="31279" --></p>
+				<p align="center"><b><font face="Verdana" size="2">Andrea 
+				Johnson - Minneapolis, MN </font></b></td>
+			</tr>
+		</table>
+	</div>
+	</div><font face="Verdana"> <p class="MsoBodyText3"> <img height="15" src="http://www.magickidsparty.com/photogallery/3line.gif" width="512"></p> </font><center> <font face="Verdana"></p> </div>
+												<p>&nbsp;<table border="1" width="48%" bordercolorlight="#FF00FF" bgcolor="#FFFF00" id="table1">
+		<tr>
+			<td>
+			<p align="center"><a href="#Info_request">Request info for your 
+			child's party now by clicking here</a></td>
+		</tr>
+	</table>
+</div>
+</p>
+												
+
+							</font> <font face="arial, helvetica, sans-serif"> 
+			<p align="center"> 
+			<font size="1"><a target="_blank" href="http://www.guilefulmagic.com/privacy_policy.html">Privacy Policy</a></font> </p> </form></font> <p><font color="#FF0000" size="2" face="Verdana">I offer birthday party entertainment packages in <br> the 
+		<u>Pennsylvania area</u>. 
+		Travel fees may apply<br>
+		outside of the Pennsylvania area.</font></p>
+</center>
+		<center> <center> <center> <font face="arial, helvetica, sans-serif">  <center> <o:p> <hr> </font>  
+		<p align="center">
+            <font face="Verdana" size="1">Copyright ©  
+<script type="text/javascript">
+<!--
+var currentTime = new Date()
+var year = currentTime.getFullYear()
+document.write(year)
+//-->
+</script> Guileful Magic</font></td>
+		</tr></p> </center></p> </font></center></td></tr></table> 
+</td></tr></table></td></tr></table></td></tr></table></td></tr> </table> </div>
+
+
+<!--
+<p><small><center>(c) Copyright 2010 David Farr Magic. All Rights Reserved.</center></small></p>
+-->
+</body></html>

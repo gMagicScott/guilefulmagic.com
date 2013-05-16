@@ -1,0 +1,67 @@
+﻿
+<head>
+<style type="text/css">
+.auto-style1 {
+	border-style: solid;
+	border-width: 1px;
+}
+</style>
+</head>
+
+<table bordercolorlight="#FF00FF" bgcolor="#FFFF00" id="table1" class="auto-style1" style="width: 25%">
+		<tr>
+			<td style="height: 196px; width: 439px">
+			<p align="center"> <font face="Verdana"> 
+			<a name="Info_request"> 
+			<img border="0" src="http://www.davidfarr.com/mkp/4058327_1237426049_master.png" width="343" height="51"></a></font><font face="Trebuchet MS"><br>
+			Enter your information and hit &quot;Request info!&quot; I'll send complete 
+			details of what I offer.</font></p>
+			<form name="form1" method="post" action="http://www.mcssl.com/app/contactsave.asp">
+							
+<input name="merchantid" type="hidden" value="194238">
+<input name="ARThankyouURL" type="hidden" value="http://www.guilefulmagic.com/info.php">
+<input name="copyarresponse" type="hidden" value="0">
+<input name="custom" type="hidden" value="1">
+<input name="field8" type="hidden" value="">
+<input name="allowmulti" type="hidden" id="allowmulti" value="0">
+<input name="visiblefields" type="hidden" value="Name,Email1">
+<input name="requiredfields" type="hidden" value="Name,Email1">
+<table width="335" height="214" cellspacing="0">
+    <tr>
+      <td width="90"><font face="Trebuchet MS">Your Name</font></td>
+      <td width="235">
+		<input name="Name" size="35" style="font-family: Trebuchet MS;" type="text" onChange="this.value=ToProperCase(this.value)">
+    </tr>
+    <tr>
+      <td width="90"><font face="Trebuchet MS">Email</font></td>
+      <td width="235">
+		<input name="Email1" type="text" size="30" style="font-family: Trebuchet MS"></td>
+    </tr>
+    <tr>
+      <td width="90"><font face="Trebuchet MS">Child's <u>first</u> name(s)</font></td>
+      <td width="235"><input type="hidden" name="fieldname9" value="Payment made">
+        <input type="hidden" name="required9" value="1">
+        <input name="field9" size="30" style="font-family: Trebuchet MS;"
+type="text" onChange="this.value=ToProperCase(this.value)"
+onBlur="if(CheckPlural(this.value)==1)this.form.AR.selectedIndex = 2">
+</td>
+    </tr> <td width="90">
+	<p align="left"><font face="Trebuchet MS">Boy/Girl</font></td>
+      <td width="235">
+		<p align="left"><font size="4">
+		<select size="1" name="AR" id="AR" style="font-family: Trebuchet MS">
+		<option value="623093">B-Day Boy</option>
+		<option value="623094">B-Day Girl</option>
+		<option value="623095">Multiple Bday Children</option>
+		
+		</select></font></td>
+	<tr align="center">
+		<td colspan="2">
+			<input type="image" name="Send" alt="Send" value-"Send" src="https://www.mcssl.com/content/5734/buttons/request_info.png" onclick="boyorgirl()">
+			</td>
+	</tr>
+  </table>
+</form>
+</td>
+		</tr>
+	</table>

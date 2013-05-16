@@ -1,0 +1,126 @@
+﻿body.cpanel #footer-content{clear:both}
+body.cpanel #header{height:auto;margin-bottom:0}
+body.cpanel #mainContent{clear:both;padding:16px 0 0;width:952px}
+body.cpanel #mcp{color:#C7492A;float:right;font-size:110%;font-weight:bold;margin-bottom:16px}
+body.cpanel #cpNav{clear:both;font-size:14px;font-weight:bold;list-style:none;margin:0;padding:0;width:958px}
+body.cpanel #cpNav li{-moz-border-radius:8px 8px 0 0;-webkit-border-radius:8px 8px 0 0;background:#D45430 url(/images/pcp-nav-bg.gif) left bottom repeat-x;float:left;margin-right:2px;width:157px}
+body.cpanel #cpNav li.end{margin-right:0}
+body.cpanel #cpNav li.active{-moz-box-shadow:0 -3px 4px #CCC;-webkit-box-shadow:0 -3px 4px #CCC;background:#FFF;border-color:#AAA;border-style:solid;border-width:1px 1px 0;box-shadow:0 -3px 4px #CCC;width:155px}
+body.cpanel #cpNav li.active a{background-image:url(/images/pcp-nav-icons-active.png);color:#C7492A}
+body.cpanel #cpNav a{background-image:url(/images/pcp-nav-icons.png);background-repeat:no-repeat;color:#FFF;display:block;padding:10px 0;text-align:center;text-decoration:none}
+body.cpanel #cpNav a.dash{background-position:25px -3px;padding-left:30px}
+body.cpanel #cpNav a.leads{background-position:40px -53px;padding-left:25px}
+body.cpanel #cpNav a.profile{background-position:30px -103px;padding-left:25px}
+body.cpanel #cpNav a.cal{background-position:15px -153px;padding-left:25px}
+body.cpanel #cpNav a.acct{background-position:35px -203px;padding-left:25px}
+body.cpanel #cpNav a.tools{background-position:40px -253px;padding-left:25px}
+body.cpanel h1,body.cpanel #content-1col1 h2.member{background:#A9A9A9 url(/images/pcp-h1-bg.gif) left bottom repeat-x;border-bottom:1px solid #666;border-top:1px solid #666;color:#FFF;height:auto;padding:10px 0 10px 16px;width:auto}
+body.cpanel div.mb h1{margin-bottom:16px}
+body.cpanel #content-1col1 h2{background:#D6D6D6 url(/images/pcp-h2-bg.gif) left bottom repeat-x;border-bottom:1px solid #666;border-top:1px solid #666;color:#FFF;font-size:125%;height:auto;margin:0;padding:10px 0 10px 16px;width:auto}
+body.cpanel #content-1col1 h2 span{background-image:url(/images/pcp-nav-icons.png);background-repeat:no-repeat}
+body.cpanel #content-1col1 h2.member span{background-position:0 -303px;padding:10px 0 8px 25px}
+body.cpanel #content-1col1 h2.inform span{background-position:0 -403px;padding:6px 0 8px 25px}
+body.cpanel #content-1col1 h2.stats span{background-position:0 -353px;padding:8px 0 8px 30px}
+body.cpanel h3{background:none;font-size:100%;height:auto;margin:0;padding:0}
+body.cpanel .col6{clear:both;float:left;width:100%}
+body.cpanel .col5{clear:both;float:left;width:793px}
+body.cpanel .col4{clear:both;float:left;width:634px}
+body.cpanel .col3{clear:both;float:left;margin-right:6px;width:475px}
+body.cpanel .col2{float:right;width:310px}
+body.cpanel .col2.dash{float:left;margin-right:6px}
+body.cpanel .col1{float:left;width:155px}
+body.cpanel #content-1col1 div{margin-top:16px}
+body.cpanel .col6,body.cpanel .col4,body.cpanel .col3,body.cpanel .col2,body.cpanel .col1{border-bottom:1px solid #999;color:#333;padding-bottom:16px}
+body.cpanel .col3.dash,body.cpanel .col2.dash,body.cpanel .col1.dash{min-height:555px}
+body.cpanel #content-1col1 .col2,body.cpanel .col3,body.cpanel .col1{background:#FAFAFA url(/images/pcp-gradient-bg.gif) left top repeat-x}
+body.cpanel div.grad div.gradFull{background:#E3E3E3 url(/images/pcp-gradient-bg.gif) left bottom repeat-x}
+body.cpanel #content-1col1 .col2 div,body.cpanel #content-1col1 .col1 div,body.cpanel #content-1col1 div.grad{margin:0;padding:16px 16px 0}
+body.cpanel #content-1col1 .col4 div.grad{overflow:hidden;padding:0}
+body.cpanel div.pk{background:#FAFAFA}
+body.cpanel dl.stripes dt{clear:both;float:left;font-weight:normal;padding:6px 0 6px 16px;width:461px}
+body.cpanel dl.stripes dd{float:left;margin:0;padding:6px 0;width:157px}
+body.cpanel #content-1col1 div#calOptions{background:#E0E0E0;margin:0 0 16px;padding:16px}
+body.cpanel .calendar th{font-size:125%}
+body.cpanel .calendar td.gig :hover{background:#C7492A}
+body.cpanel .calendar td.gig a{display:block;padding:12px}
+body.cpanel .calendar td.gig a:hover{color:#FFF}
+body.cpanel .col2 dt,body.cpanel .col1 dt{margin:16px 0 4px}
+body.cpanel .details{color:#999;font-weight:normal}
+body.cpanel .col2 ol{padding-left:20px}
+body.cpanel img.thumb{background:#FFF;padding:3px}
+body.cpanel #photoDT,body.cpanel #accounts-table li.thumb{float:left;margin:0 16px 0 0}
+body.cpanel #photoDD{clear:left;float:left;width:100%}
+body.cpanel .col3 #photoDD{margin-top:5px;width:81px}
+body.cpanel #pkInfo dd,body.cpanel #idDT{border-bottom:1px solid #BBB;padding-bottom:8px}
+body.cpanel #idDT,body.cpanel dd.ratingDD,body.cpanel dt.earningsDT{margin:0 0 8px 97px}
+body.cpanel #ratingDT img{margin-left:4px;vertical-align:top}
+body.cpanel #idDT span,body.cpanel #ratingDT span,body.cpanel dt.earningsDT span{font-weight:normal}
+body.cpanel dt.urlDT{clear:left}
+body.cpanel .col3 dt.urlDT{border-top:1px solid #BBB;padding-top:8px}
+body.cpanel #content-1col1 #percent-complete{background:#FFFFD3;border:1px solid #F90;color:#C5442B;margin-bottom:16px;padding:10px}
+body.cpanel #content-1col1 .col3 #percent-complete{margin:0 16px 16px}
+body.cpanel #percent-complete p{clear:none}
+body.cpanel #percent-complete p.fl{margin-bottom:10px}
+body.cpanel #percent-complete #percent-bar{background:url(/images/pcp-percent-bg.gif) 0 0 repeat-x;clear:both;height:9px}
+body.cpanel #percent-bar strong{background:url(/images/pcp-percent-bar.png) 0 0 repeat-x;display:block;text-indent:-9999px}
+body.cpanel p#search-gig{background:#E0E0E0;font-weight:bold;margin-bottom:8px;padding:16px}
+body.cpanel p#search-gig input[type=text]{margin:0 10px}
+body.cpanel #leads-table th,body.cpanel #leads-table td,body.cpanel #accounts-table th,body.cpanel #accounts-table td{padding:4px 16px}
+body.cpanel #leads-table th span{color:#C7492A;font-weight:normal}
+body.cpanel #leads-table tfoot td{border-bottom:8px solid #FFF}
+body.cpanel #leads-table tfoot tr.note{background:#FFF}
+body.cpanel #leads-table tfoot tr.note td{border:0;padding-top:8px}
+body.cpanel #accounts-table th{padding:6px 16px}
+body.cpanel #accounts-table td{padding:10px 16px}
+body.cpanel #accounts-table thead{background:#E0E0E0}
+body.cpanel #accounts-table thead th{border-left:1px solid #FFF}
+body.cpanel #accounts-table tr.alt{background:#EFEFEF}
+body.cpanel #accounts-table strong{color:#C7492A}
+body.cpanel #accounts-table li{margin-bottom:2px}
+body.cpanel #add-membership{float:left;margin-left:16px}
+body.cpanel #add-membership em{color:#666;font-size:90%}
+body.cpanel #add-membership p{-moz-border-radius:8px;-moz-box-shadow:-1px -1px 2px #999;-webkit-border-radius:8px;-webkit-box-shadow:-1px -1px 2px #999;background:#FFF url(/images/pcp-save.gif) 10px center no-repeat;border:1px solid #CCC;box-shadow:-1px -1px 2px #999;color:#333;margin-bottom:8px;padding:10px 10px 10px 54px;width:220px}
+body.cpanel dt#addmemDT{font-weight:normal;margin-bottom:8px;padding:8px 0}
+body.cpanel .col2.dash dt{clear:both;float:left;margin:0 5px 0 0;padding:0}
+*:first-child+html body.cpanel .col2.dash dt#codeDT{float:none}
+body.cpanel #memsinceDT,body.cpanel #memsinceDD,body.cpanel #activateDD,body.cpanel #renewDD,body.cpanel #upgradeDD{border-bottom:1px solid #BBB;margin-bottom:8px;padding-bottom:8px}
+body.cpanel #renewDD,body.cpanel #activateDD,body.cpanel #upgradeDD,body.cpanel dd.ratingDD,body.cpanel dd.urlDD{margin-top:5px}
+body.cpanel #renewDD img,body.cpanel #activateDD img{vertical-align:bottom}
+body.cpanel #upgradeDD a.upgradeLnk{display:block;margin-top:8px}
+body.cpanel #content-1col1 div.error{margin:0 0 16px}
+body.cpanel div.alerts{clear:both;padding-top:16px}
+*:first-child+html body.cpanel div.alerts{padding-top:0}
+body.cpanel div.alerts a.dismiss{float:right;margin-left:15px}
+body.cpanel #content-1col1 div.alerts div.pcp-alert,body.cpanel ul.pcp-alert{background:#F7E1DC url(/images/pcp-alert.png) 16px 5px no-repeat;border-bottom:1px solid #C5442B;border-top:1px solid #C5442B;color:#C5442B;font-size:115%;margin:0 0 8px;padding:8px 16px 8px 44px}
+body.cpanel #moreAlerts,body.cpanel #moreNotices{display:none}
+body.cpanel div.pcp-alert ul.pcp-list li{margin:8px 0 0 125px}
+body.cpanel div.pcp-notice ul.pcp-list li{margin:8px 0 0 80px}
+body.cpanel #content-1col1 div.alerts div.pcp-notice{background:#FFFFD3;border-bottom:1px solid #F90;border-top:1px solid #F90;color:#C5442B;font-size:115%;padding:8px 16px 8px 44px}
+body.cpanel .pcp-alert a,body.cpanel .pcp-notice a,body.cpanel #percent-complete a{color:#C5442B}
+body.cpanel div.pcp-alert strong#alertTitle,body.cpanel div.pcp-notice strong#noticesTitle{display:block;float:left;min-width:125px}
+body.cpanel div.pcp-notice strong#noticesTitle{min-width:80px}
+body.cpanel #moreAlerts li,body.cpanel #moreNotices li{margin-left:auto}
+body.cpanel #sb-info{position:absolute;top:20px}
+body.cpanel #sb-nav{float:left;width:100%}
+body.cpanel #paymentAccepted{margin:28px 0}
+body.contract .col1{float:right}
+body.cpanel .col4 h3,body.cpanel span.divider,body.contract .col1 dl{padding:0 16px}
+body.cpanel dl.stripes,body.cpanel #percent-complete div.complete-how{margin-top:10px}
+body.cpanel dl.stripes dt.alt,body.cpanel dl.stripes dd.alt,body.cpanel #leads-table thead,body.cpanel #leads-table tfoot{background:#F0F0F0}
+body.cpanel .calendar td.gig,body.cpanel #content-1col1 .col2 div.complete-how,body.cpanel #content-1col1 .col2 dt#addmemDT div{padding:0}
+body.cpanel .col2 dt.top,body.cpanel .col1 dt.top,body.cpanel .col4 dl.top,*:first-child+html body.cpanel .col3 #photoDD,*:first-child+html body.cpanel div.pcp-alert ul.pcp-list li,*:first-child+html body.cpanel div.pcp-notice ul.pcp-list li{margin-top:0}
+body.cpanel .col2 dd,body.cpanel .col1 dd,body.cpanel #content-1col1 div.alerts div,body.cpanel.contract #content-1col1 div.alert{margin:0}
+body.cpanel #pkInfo,body.cpanel .col2.dash dl{padding:16px}
+body.cpanel #idDD,body.cpanel #sb-nav a{float:left}
+body.cpanel .col3 #pkInfo dd#photoDD,body.cpanel .col3 #pkInfo dd.urlDD,body.cpanel #accounts-table thead th.start{border:0}
+body.cpanel #accounts-table img,body.cpanel #activateDD,body.cpanel #refcodeDD,body.cpanel #upgradeDD{display:block}
+body.cpanel .col2 div > ul{margin-bottom:20px}
+body.cpanel .col2 div > h3{margin-bottom:8px}
+body.cpanel .col2 div > ul li{margin-bottom:3px}
+body.cpanel #blogPromo img{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+body.cpanel #blogPromo img:hover{-moz-box-shadow:0 0 9px #666;-webkit-box-shadow:0 0 9px #666;box-shadow:0 0 9px #666}
+body.cpanel table.cpanel{border-collapse:collapse;margin-top:1em}
+body.cpanel table.cpanel,table.cpanel th,table.cpanel td{border:1px solid #888}
+body.cpanel table.cpanel td{padding:5px;text-align:left}
+body.cpanel table.cpanel th{background-color:#EBEBEB;padding:5px;text-align:center}
+#pcpDialog li {list-style:disc;}
