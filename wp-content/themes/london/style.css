@@ -662,7 +662,8 @@ img.aligncenter {
 
 #searchdiv {
   margin: 0px;
-  padding 0px; clear: right;
+  padding: 0; 
+  clear: right;
 }
 
 #searchform {
@@ -698,14 +699,15 @@ pre {
 div.codediv {
   padding: 5px;
   font-family: "Courier New",Courier, monospace;
-  font-size:13px;
+  font-size: 13px;
   overflow: auto;
   border: 1px solid #ce8560;
   max-height: 350px;
   width: 520px;
   margin: 0 auto;
-  height:expression(this.scrollHeight > 350? "350px" : "auto" );
+  height: expression(this.scrollHeight > 350? "350px" :  "auto" );
 }
+
 
 /* --- Widget Styling --- */
 
