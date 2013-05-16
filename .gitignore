@@ -36,3 +36,7 @@ wp-content/plugins/comments-plus/*
 wp-content/themes/genesis/*
 wp-content/themes/inspyr/*
 wp-content/themes/ondemand/*
+
+# Sublime Text Project Files
+*.sublime-project
+*.sublime-workspace
