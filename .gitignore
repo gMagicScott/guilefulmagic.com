@@ -6,7 +6,7 @@ wp-as-current*
 .listing
 fantastico_fileslist.txt
 fantversion.php
-wp-config.php
+local-config.php
 wp-content/cache
 db.php
 wp-content/upgrade
