@@ -27,7 +27,7 @@ define( 'DB_COLLATE', '' );
 // Production Salts not in Repo, these are just for Local Development
 // Grab these from: https://api.wordpress.org/secret-key/1.1/salt
 // ==================================================================
-if ( false === WP_LOCAL_DEV ) {
+if ( WP_LOCAL_DEV ) {
 	define('AUTH_KEY',         'cBrOPSKu]6Ub%7M^%?f(h&JIB11$|eO2j/Lp#p5Y/[ c{YcS)+sdT|]8eLoQB7O<');
 	define('SECURE_AUTH_KEY',  '>,OcWJDc;m:l~]t/OBzTu|{QGG(@?[kAk7fF|>-wqt|+Z$wv#S3W4:Teytj;VsQ;');
 	define('LOGGED_IN_KEY',    'hIL;o=q~~urR:I:?-I}CPQr%HBdJt~scC*+WV-TNEht-o>QgampJ02#H*5qVTSiJ');
@@ -42,7 +42,7 @@ if ( false === WP_LOCAL_DEV ) {
 // Table prefix, (Just for local development)
 // Change this if you have multiple installs in the same database
 // ==============================================================
-if ( false === WP_LOCAL_DEV ) {
+if ( WP_LOCAL_DEV ) {
 	$table_prefix  = 'wp_local_';
 }
 
@@ -55,7 +55,7 @@ define( 'WPLANG', '' );
 // ===========
 // Hide errors
 // ===========
-ini_set( 'display_errors', 0 );
+@ini_set( 'display_errors', 0 );
 define( 'WP_DEBUG_DISPLAY', false );
 
 // =================================================================
@@ -67,10 +67,12 @@ if ( !defined( 'SAVEQUERIES' ) ) {
 }
 if ( !defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
+}
 
 // ===================
 // Bootstrap WordPress
 // ===================
-if ( !defined( 'ABSPATH' ) )
+if ( !defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( __FILE__ ) . '/wp/' );
+}
 require_once( ABSPATH . 'wp-settings.php' );

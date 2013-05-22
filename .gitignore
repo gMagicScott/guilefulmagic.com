@@ -40,3 +40,14 @@ wp-content/themes/ondemand/*
 # Sublime Text Project Files
 *.sublime-project
 *.sublime-workspace
+
+
+# # #
+# Use Librarian-Chef for Provisioning
+# # #
+/tmp
+/cookbooks
+
+
+# Ignore Vagrant's status
+.vagrant
