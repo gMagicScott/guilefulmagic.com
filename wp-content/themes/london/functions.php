@@ -1,10 +1,11 @@
 <?php
-if ( function_exists('register_sidebars') )
-    register_sidebars(2);
+if ( function_exists('register_sidebars') ) {
+    register_sidebars( 2 );
+}
 
 function register_my_menus() {
   register_nav_menus(
-    array('header-menu' => __( 'Header Menu' ) )
+    array( 'header-menu' => __( 'Header Menu' ) )
   );
 }
 
@@ -19,5 +20,3 @@ function yoast_allow_rel() {
 	$allowedtags['a']['rel'] = array ();
 }
 add_action( 'wp_loaded', 'yoast_allow_rel' );
-
-/* EOF */
